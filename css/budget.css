@@ -1,0 +1,14 @@
+.Header-text {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  text-align: center;
+}
+
+.form {
+  background-color: #22dd8a;
+}
