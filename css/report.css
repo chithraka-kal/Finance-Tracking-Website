@@ -6,6 +6,12 @@ body {
   color: #666666;
   font-family: "Montserrat", sans-serif;
 }
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+}
 
 .material-icons-outlined {
   vertical-align: middle;

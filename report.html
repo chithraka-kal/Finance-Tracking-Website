@@ -29,6 +29,15 @@
     <link rel="stylesheet" href="css/report.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/296e3cb483.js" crossorigin="anonymous"></script>
+    <style>
+      .max-container {
+      max-width: 1200px;
+      width: 96%;
+      margin: 0 auto;
+    }
+
+</style>
+
   </head>
   <body>
     <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -78,7 +87,7 @@
                 href="log in.html">Login</a>
   
               <div class="hidden sm:flex">
-                <a class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600" href="#"> Register
+                <a class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600" href="register.html"> Register
                 </a>
               </div>
             </div>
@@ -101,64 +110,9 @@
         </div>
       </div>
     </div>
+<br><br>
 
-    <div class="grid-container">
-      <!-- Header -->
-      <header class="header">
-        <div class="menu-icon" onclick="openSidebar()">
-          <span class="material-icons-outlined">menu</span>
-        </div>
-        <div class="header-left">
-          <span class="material-icons-outlined">search</span>
-        </div>
-        <div class="header-right">
-          <span class="material-icons-outlined">notifications</span>
-          <span class="material-icons-outlined">email</span>
-          <span class="material-icons-outlined">account_circle</span>
-        </div>
-      </header>
-      <!-- End Header -->
-
-      <!-- Sidebar -->
-      <aside id="sidebar">
-        <div class="sidebar-title">
-          <div class="sidebar-brand">
-            <span class="material-icons-outlined">inventory</span> CashFlow
-          </div>
-          <span class="material-icons-outlined" onclick="closeSidebar()"
-            >close</span
-          >
-        </div>
-
-        <ul class="sidebar-list">
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="fa-solid fa-gauge-high"></span> Dashboard
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="fa-solid fa-sack-dollar"></span> Budget
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="fa-solid fa-square-poll-vertical"></span> Reports
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="fa-solid fa-file-signature"></span> Contact Us
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="fa-solid fa-gear"></span> Settings
-            </a>
-          </li>
-        </ul>
-      </aside>
-      <!-- End Sidebar -->
+    <div class="max-container">
 
       <!-- Main -->
       <main class="main-container">
@@ -207,6 +161,9 @@
       <!-- End Main -->
     </div>
 
+
+  
+    <div class="footer">
     <footer class="bg-gray-50">
       <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 lg:px-8">
         <div class="sm:flex sm:items-center sm:justify-between">
@@ -261,6 +218,7 @@
         </div>
       </div>
     </footer>
+    </div>
 
     <!-- Scripts -->
     <!-- ApexCharts -->
