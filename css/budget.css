@@ -1,5 +1,7 @@
 .Header-text {
   text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .container {
@@ -8,6 +10,18 @@
   justify-content: center;
   text-align: center;
   
+}
+
+.but {
+  background-color: rgb(215, 222, 38);
+  color: #fff;
+  padding: 5px;
+  border: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  border-style: solid;
+  border-width: 2px;
 }
 
 .form {
@@ -33,4 +47,17 @@
   max-width: 1200px;
   width: 96%;
   margin: 0 auto;
+}
+
+input {
+  width: auto;
+  padding: 8px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  box-sizing: border-box;
+}
+
+label {
+  color: #fff;
+  padding: 5px;
 }
