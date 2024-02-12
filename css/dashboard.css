@@ -28,7 +28,7 @@ body {
 
 .form-container {
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: none; /* Initially hide all forms */
 }
@@ -47,7 +47,7 @@ input {
 
 button {
   background-color: #4caf50;
-  color: #fff;
+  color: #ffffff;
   padding: 10px;
   border: none;
   border-radius: 4px;
@@ -69,6 +69,7 @@ button {
   float: left;
   box-sizing: border-box;
   padding: 20px; /* Adjust as needed */
+  
 }
 
 .column_left {
@@ -79,8 +80,8 @@ button {
   justify-content: center;
   padding: 20px;
   border: 1px solid #ccc;
-  background-color: #22dd8a;
-  border-radius: 5px;
+  background-color: #0c9169;
+  border-radius: 20px;
 }
 
 /* Style for the buttons */
@@ -88,6 +89,9 @@ button {
   padding: 10px;
   margin: 10px auto; /* Adjust the space between buttons */
   font-size: 16px; /* Adjust the font size */
+  color: #ffffff;
+  background-color: #0c9169;
+  
 }
 
 /*Style columns differently */

@@ -85,9 +85,9 @@
 <div class="max-container">
     <h1 class="Header-text">Pie Chart Example</h1><br>
     <div class="container">
-      <div class="form">
+      <div class="form" >
         <!-- Form to input total income -->
-        <form id="incomeForm">
+        <form id="incomeForm" >
           <label for="income">Total Income:</label>
           <input type="number" id="income" required />
           <button type="button" onclick="setIncome()">Set Income</button>
@@ -109,7 +109,7 @@
           <p>Remaining Balance: $<span id="remainingBalance">0.00</span></p>
         </form>
       </div>
-      <div class="chart">
+      <div class="chart" style="display: block">
         <!-- Canvas to render the pie chart -->
         <canvas id="myPieChart" width="400" height="400"></canvas>
       </div>
