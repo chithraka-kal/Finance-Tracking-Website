@@ -63,11 +63,7 @@
               <a
                 class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
                 href="log in.html">Login</a>
-  
-              <div class="hidden sm:flex">
-                <a class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600" href="register.html"> Register
-                </a>
-              </div>
+
             </div>
   
             <div class="block md:hidden">
@@ -129,8 +125,8 @@
         
         <div class="container">
           <div class="column">
-            <section class="block container"></section>
-            <button type="button" onclick="showForm('expensesForm')">
+            <section class="block container" ></section>
+            <button type="button" onclick="showForm('expensesForm')" class="left">
               Expenses
             </button> 
             <!--
@@ -138,7 +134,7 @@
               Transactions
             </button>
             -->
-            <button type="button" onclick="showForm('incomeForm')">Income</button>
+            <button type="button" onclick="showForm('incomeForm')" class="left">Income</button>
         </section>
           </div>
           <div class="column ">
@@ -165,7 +161,7 @@
                   <label for="expenseDate">Expense Date:</label>
                   <input type="date" id="expenseDate" name="expenseDate" required />
     
-                  <button type="button" id="addExpensesBtn" >
+                  <button type="button" id="addExpensesBtn" class="left">
                     Add Expense
                   </button>
                 </form>
@@ -228,7 +224,7 @@
                   <label for="incomeDate">Income Date:</label>
                   <input type="date" id="incomeDate" name="incomeDate" required />
     
-                  <button type="button" id="addIncomeBtn">
+                  <button type="button" id="addIncomeBtn" class="left">
                     Add Income
                   </button>
                 </form>

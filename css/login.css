@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+body {
+    background-color: #e6e8ed;
+    font-family: "Montserrat", sans-serif;
+}
+label {
+    background-color: #0c9169;
+}
 
+.form {
 
-body{
-    background-color: #c9d6ff;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
-    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .footer {
@@ -17,7 +21,7 @@ body{
   }
 
 .container{
-    background-color: #fff;
+
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
@@ -46,8 +50,8 @@ body{
 }
 
 .container button{
-    background-color: #512da8;
-    color: #fff;
+    background-color: #fff;
+    color: #0c9169;
     font-size: 12px;
     padding: 10px 45px;
     border: 1px solid transparent;
