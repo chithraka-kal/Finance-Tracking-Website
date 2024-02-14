@@ -38,28 +38,7 @@
   
         <div class="md:flex md:items-center md:gap-12">
           <nav aria-label="Global" class="hidden md:block">
-            <ul class="flex items-center gap-6 text-sm">
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="landing page.html"> Home </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="dashboard.html"> Dashboard </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="report.html"> Report </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="budget.html"> Budget </a>
-              </li>
-  
-              <li>
-                <a class="text-gray-500 transition hover:text-gray-500/75" href="contact us.html"> Contact Us </a>
-              </li>
-  
-            </ul>
+
           </nav>
   
           <div class="flex items-center gap-4">
@@ -67,7 +46,16 @@
               <a
                 class="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
                 href="log in.html">Login</a>
-  
+
+
+                  <div class="hidden sm:flex">
+                    <a
+                      class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                      href="register.html"
+                    >
+                      Register
+                    </a>
+                  </div>  
             </div>
   
             <div class="block md:hidden">
@@ -204,11 +192,10 @@
       </div>
 
       <button
-        type="submit"
-        class="block w-full rounded-lg bg-green-700 px-5 py-3 text-sm font-medium text-white"
-      >
+        type="submit" class="block w-full rounded-lg bg-green-700 px-5 py-3 text-sm font-medium text-white" onclick="window.location.href='log in.html'">
         Sign in
       </button>
+      
 
       <p class="text-center text-sm text-gray-500">
         No account?
